@@ -1,0 +1,31 @@
+# def greet(*name):
+#     print('hi ',*name)#hi  gou tham sath wik
+#     print('hi ',name[1])#hi  tham
+#     print('hi ',name[2])#hi  sath
+# greet('gou','tham','sath','wik')
+
+'''----------------------------------------'''
+
+# def info(n='goutham',a=24):
+#     print('name:'+n+'\nage:',str(a))
+# info()#name:goutham
+         #age:24
+# info(n='sathwik',a=25)#name:sathwik
+                         #age:25
+
+# info('sath',25)#name:sath
+                  #age:25
+
+# info('sath')#name:sath
+                #age:24
+
+# info(23)#name:goutham
+           #age:23
+
+# info(40,'sath')#TypeError
+'''---------------------------------'''
+# def sem(a,b):
+#     c=a+b
+#     return c
+# x=sem(10.23,75.3)
+# print(x)#33
